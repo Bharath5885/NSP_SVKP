@@ -1,0 +1,60 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#header{
+    background-color: white;
+    border-bottom: 2px solid gray;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: sticky;
+    top: 0px;
+}
+#header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+#svkplogo{
+    border-radius: 50%;
+}
+#merit{
+    text-align: center;
+}
+#students-list{
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 120px;
+    padding: 20px;
+}
+.students{
+    border: 2px solid gray;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.image{
+    background-size: 200px;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    background-position: 0px -17px;
+    border-radius: 50%;
+}
+.student1{
+    background-image: url('student1.jpg');
+}
+.student2{
+    background-image: url('student2.jpg');
+}
+.students img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+h4{
+    margin: 0px;
+}
