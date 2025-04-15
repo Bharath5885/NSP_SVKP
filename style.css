@@ -37,18 +37,26 @@ body{
     color: white;
 }
 .image{
-    background-size: 200px;
-    background-repeat: no-repeat;
     height: 200px;
     width: 200px;
-    background-position: 0px -17px;
     border-radius: 50%;
+    background-repeat: no-repeat;
+
 }
 .student1{
     background-image: url('student1.jpg');
+    background-size: 200px;
+    background-position: 0px -17px;
 }
 .student2{
     background-image: url('student2.jpg');
+    background-size: 236px;
+    background-position: -16px -33px;
+}
+.student3{
+    background-image: url('student2.jpg');
+    background-size: 236px;
+    background-position: -16px -33px;
 }
 .students img{
     width: 200px;
